@@ -3,10 +3,6 @@ title: About
 layout: page
 permalink: /about/
 ---
-
-{% include nav.html %}
-
-
 #About
 
 <style>
