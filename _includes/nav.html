@@ -1,6 +1,6 @@
 <nav class="{% if page.title == "Home" %}home__header-nav{% else %}nav{% endif %}">
     <ul>
-        {% if page.title != "Home" %}<li><h4><a href="{{ site.url }}/">Home</a></h4></li>{% endif %}
+        {% if page.title != "Home" %}<li><a href="{{ site.url }}/">Home</a></li>{% endif %}
         {% if page.title != "Blog" %}<li><a href="{{ site.testurl }}/articles">Articles</a></li>{% endif %}
         {% if page.title != "Soy" %}<li><a href="{{ site.testurl }}/soycandle">SoyCandle</a></li>{% endif %}        
         <!-- {% if page.title == "Home" %}<li><a href="http://github.com/{{ site.github }}" target="_blank">Github</a></li>{% endif %} -->
