@@ -2,8 +2,8 @@ name: Mijin Baek
 bio: 'I am an Agile Coach and Business Analyst in Korea.'
 picture: 'assets/images/bio-photo.png'
 
-url: http://midaeng.github.io
-baseurl: http://midaeng.github.io/maintest
+testurl: http://midaeng.github.io
+url: http://midaeng.github.io/maintest
 permalink: /:title/
 
 # github    : http://github.com/nandomoreirame
