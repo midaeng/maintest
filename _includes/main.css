@@ -308,7 +308,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "UnskinnyBop-Regular", Candara, "Nanum Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Candara, "Nanum Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -327,6 +327,7 @@ h3 {
   font-size: 2rem;
 }
 h4 {
+  font-family: "UnskinnyBop-Regular";
   font-size: 1.6rem;
 }
 a {
