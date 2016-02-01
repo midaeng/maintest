@@ -5,15 +5,13 @@ picture: 'assets/images/bio-photo.png'
 url: http://midaeng.github.io/maintest
 permalink: /:title/
 
-# Author settings
-author:
-  # github    : http://github.com/nandomoreirame
-  # twitter   : http://twitter.com/nandomoreirame
-  facebook  : http://facebook.com/dooly.bang
-  linkedin  : http://linkedin.com/in/midaeng
-  instagram	: https://www.instagram.com/bybanglab/
-  brunch	: https://brunch.co.kr/@banglab
-  youtube	: https://www.youtube.com/user/midaeng
+# github    : http://github.com/nandomoreirame
+# twitter   : http://twitter.com/nandomoreirame
+facebook  : http://facebook.com/dooly.bang
+linkedin  : http://linkedin.com/in/midaeng
+instagram	: https://www.instagram.com/bybanglab/
+brunch	: https://brunch.co.kr/@banglab
+youtube	: https://www.youtube.com/user/midaeng
 
 
 analytics: 'UA-54298325-1'
