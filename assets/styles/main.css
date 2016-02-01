@@ -202,9 +202,9 @@
   background-color: #eaf2f5;
 }
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
-html {
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-  font-family: "Candara", "Nanum Gothic"; /* 1 */
+html {
+  font-family: Candara, "Nanum Gothic"; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -271,7 +271,7 @@ html {
 }
 body {
   line-height: 1;
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px Candara, "Nanum Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 color alpha {
   -webkit-font-smoothing: antialiased;
@@ -281,7 +281,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Candara, "Nanum Gothic", Arial, sans-serif;
   color: #222;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
