@@ -1,62 +1,54 @@
-# end2end
+## Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/)
 
-[![Build Status](https://travis-ci.org/nandomoreirame/end2end.svg?branch=master)](https://travis-ci.org/nandomoreirame/end2end)
+![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png)
 
-Clean Jekyll theme
-
-> :warning:
-  This theme requires ruby and rubygems installed
-
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Comments with Disqus
-* [ ] Search posts
-* [ ] Share posts
+This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
 ---
 
-### Start in 4 steps
+What has inside?
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/end2end.git`
-2. Enter the folder: `cd end2end/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+- Gulp
+- Stylus
+- SVG
+- Travis
+- No JS
+- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
-Access, [localhost:4000/end2end](http://localhost:4000/end2end)
+## Setup
 
-### Deploy in Github pages in 2 steps
+1. [Install Jekyll](http://jekyllrb.com)
+2. [Install NodeJS](https://nodejs.org/)
+3. [Install Bundler](http://bundler.io/)
+4. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+5. Edit `_config.yml` with your data.
+6. `npm install`
+7. `gulp`
+8. open in your browser: `http://localhost:3000`
 
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
+## Settings
 
----
+You have to fill some informations on `_config.yml` to customize your site.
 
-### Using Rake tasks
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
 
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
+url: http://YOURURL.github.io/indigo
+permalink: /:title/
 
----
+analytics: 'UA-MYANALYTICS'
+disqus: mydisqus
+facebook: myfacebook
+youtube: myyoutube
+github: mygithub
+```
 
-### Demo and Download
+## Problems?
 
-[Demo](http://nandomoreira.me/end2end/)
-[Download](https://github.com/nandomoreirame/end2end/archive/master.zip)
+Tell me on github or open a issue [GitHub Issue](https://github.com/sergiokopplin/indigo/issues/new).
 
-![end2end - free Jekyll theme](/screenshot.png)
+## License
 
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
-
-Enjoy :yum:
+[MIT](http://kopplin.mit-license.org/) Licença © Sérgio Kopplin
