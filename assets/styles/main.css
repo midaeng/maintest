@@ -639,7 +639,7 @@ pre {
   border-radius: 4%;
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
-  width: 70px;
+  width: 100px;
 }
 .home__header-nav ul li a:hover {
   color: #666;
