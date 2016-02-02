@@ -1,8 +1,8 @@
 ---
+title: About
 layout: compress
-title: Home
+permalink: /about/index.html
 ---
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -33,29 +33,55 @@ title: Home
             <div class="{{ page.title | downcase }}">
         {% endif %}
 
-        <header class="home__header">
-	        <img alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
-
-	        <h1>{{ site.name }}</h1>
-	        <h2>{{ site.bio }}</h2>
-	        <div class="home__header-social">
-	            <a href="{{ site.facebook }}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
-	            <a href="{{ site.instagram }}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a>
-	            <a href="{{ site.linkedin }}" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a>
-	            <a href="{{ site.youtube }}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a>
-	            <!-- <a href="mailto:{{ site.email }}" target="_blank"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a> -->
-	        </div>
-	    </header>
-
 	    <nav class="{% if page.title == "Home" %}home__header-nav{% else %}nav{% endif %}">
 		    <ul>
 		        {% if page.title != "Home" %}<li><a href="{{ site.url }}/">Home</a></li>{% endif %}
 		        {% if page.title != "Articles" %}<li><a href="{{ site.testurl }}/articles">Articles</a></li>{% endif %}
-		        {% if page.title != "SoyCandle" %}<li><a href="{{ site.testurl }}/candle">SoyCandle</a></li>{% endif %}        
+		        {% if page.title != "SoyCandle" %}<li><a href="{{ site.testurl }}/soycandle">SoyCandle</a></li>{% endif %}        
 		        <!-- {% if page.title == "Home" %}<li><a href="http://github.com/{{ site.github }}" target="_blank">Github</a></li>{% endif %} -->
 		        {% if page.title != "About" %}<li><a href="{{ site.url }}/about">About</a></li>{% endif %}
 		    </ul>
 		</nav>
+
+		<div class="page">
+			<h1>About</h1>
+
+			<style>
+			img { width: 50%; margin: 0 auto; display: block; }
+			</style>
+
+			<img alt="{{ site.name }}" src="{{ site.url }}/{{ site.picture }}" />
+
+			<p> I’m a maker, software developer and process engineer at LGE in Korea. I’m interested in growing up of organize and excuting my idea than making plans long time. So I’m trying constantly to improve the process. And also, I’m interested in making every handcrafting things.</p>
+
+			<h2>Skills</h2>
+
+			<ul class="skill-list">
+				<li>HTML - Jade - Haml - Erb</li>
+				<li>Responsive (Mobile First)</li>
+				<li>CSS (Stylus, Sass, Less)</li>
+				<li>Css Frameworks (Bootstrap, Foundation)</li>
+				<li>Javascript (Design Patterns, Testes)</li>
+				<li>NodeJS</li>
+				<li>AngularJS - ReactJS</li>
+				<li>Grunt - Gulp - Yeoman</li>
+				<li>Git</li>
+				<li>PHP</li>
+				<li>Python</li>
+				<li>MySQL - MongoDB</li>
+				<li>Scrum and Kanban</li>
+				<li>TDD e Continuous Integration</li>
+			</ul>
+
+			<h2>Projects</h2>
+
+			<ul>
+				<li><a href="https://github.com/">Lorem Lorem</a></li>
+				<li><a href="https://github.com/">Ipsum Dolor</a></li>
+				<li><a href="https://github.com/">Dolor Lorem</a></li>
+			</ul>
+
+		</div>
 
 
 	    <footer>
@@ -81,3 +107,5 @@ title: Home
 
 </body>
 </html>
+
+

@@ -28,11 +28,7 @@ layout: compress
         {% if page.tag %}
             <div class="post">
         {% else %}
-            {% if page.title == "About" %}
-                <div class="page">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
+            <div class="{{ page.title | downcase }}">
         {% endif %}
 
             {{ content }}
