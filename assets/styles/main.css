@@ -207,11 +207,11 @@
 
 @font-face {
   font-family:'UnskinnyBop-Regular';
-  src: url('/fonts/UnskinnyBop_gdi.eot');
-  src: url('/fonts/UnskinnyBop_gdi.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/UnskinnyBop_gdi.woff') format('woff'),
-    url('/fonts/UnskinnyBop_gdi.ttf') format('truetype'),
-    url('/fonts/UnskinnyBop_gdi.svg#UnskinnyBop-Regular') format('svg');
+  src: url('UnskinnyBop_gdi.eot');
+  src: url('UnskinnyBop_gdi.eot?#iefix') format('embedded-opentype'),
+    url('UnskinnyBop_gdi.woff') format('woff'),
+    url('UnskinnyBop_gdi.ttf') format('truetype'),
+    url('UnskinnyBop_gdi.svg#UnskinnyBop-Regular') format('svg');
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
